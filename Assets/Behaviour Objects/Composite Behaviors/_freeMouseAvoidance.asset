@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88064ef9c01a74c46830df5da93c2cf2, type: 3}
+  m_Name: _freeMouseAvoidance
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: 76a552a2d51b2f94db4a86811a684265, type: 2}
+  - {fileID: 11400000, guid: f7d47bc1bcba59248b2ff60f749925fc, type: 2}
+  - {fileID: 11400000, guid: 08f39cf8a202e3d4883b380c54cbb54a, type: 2}
+  - {fileID: 11400000, guid: 1f2f7951d89fd804ba917af8ee22a0ed, type: 2}
+  weights:
+  - 10
+  - 2
+  - 3
+  - 0
+  multipliers:
+  - 3
+  - 2
+  - 0.1
+  - 1
